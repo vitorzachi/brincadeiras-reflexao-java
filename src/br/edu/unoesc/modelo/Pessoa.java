@@ -10,6 +10,16 @@ public class Pessoa {
 
 	private LocalDate dataNascimento;
 
+	public Pessoa() {
+	}
+
+	public Pessoa(String nome, String sobrenome, LocalDate dataNascimento) {
+		super();
+		this.nome = nome;
+		this.sobrenome = sobrenome;
+		this.dataNascimento = dataNascimento;
+	}
+
 	public String getNome() {
 		return nome;
 	}
@@ -17,7 +27,7 @@ public class Pessoa {
 	public String getSobrenome() {
 		return sobrenome;
 	}
-	
+
 	public LocalDate getDataNascimento() {
 		return dataNascimento;
 	}
