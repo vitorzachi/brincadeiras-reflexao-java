@@ -2,8 +2,11 @@ package br.edu.unoesc.modelo;
 
 import java.time.LocalDate;
 
+import br.edu.unoesc.logica.CampoParaComparacao;
+
 public class Pessoa {
 
+	@CampoParaComparacao
 	private String nome;
 
 	private String sobrenome;

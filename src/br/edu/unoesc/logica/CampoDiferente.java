@@ -1,4 +1,4 @@
-package br.edu.unoesc.main;
+package br.edu.unoesc.logica;
 
 public class CampoDiferente {
 	private String nomeDoCampo;

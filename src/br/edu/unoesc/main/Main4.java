@@ -2,6 +2,7 @@ package br.edu.unoesc.main;
 
 import java.time.LocalDate;
 
+import br.edu.unoesc.logica.GeradorDeClone;
 import br.edu.unoesc.modelo.Pessoa;
 
 public class Main4 {
